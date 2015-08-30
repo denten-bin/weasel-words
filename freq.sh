@@ -1,10 +1,8 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # a snippet to handle the passed in file name
 
-## pass the file name as an argument
+## pass the file name and stopwords dictionary as an argument
 
 if [ $# -eq 0 ]
 then
@@ -22,8 +20,6 @@ t="${source##*/}"
 
 # strip to file-name
 target="${t%.*}"
-
-echo $source
 
 # make sure the reports directory exists
 # relative to where we run the script
