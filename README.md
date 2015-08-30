@@ -1,7 +1,6 @@
-**weasel-words** is a collection of bash scripts that improve prose.
+**weasel-words** is a collection of bash scripts that improve prose. It includes the following modules:
 
-
-- Find duplicate words  
-   `grep -Eo '(\b.+) \1\b'`   
-   or in vim `\(\<\w\+\>\)\_s*\<\1\>`
-
+- duplicate.sh 
+- passive.sh 	
+- weasel.sh
+- freq.sh
