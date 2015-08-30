@@ -5,6 +5,6 @@
 - [passive.sh](https://github.com/denten/weasel-words/blob/master/passive.sh) 
     Check passive voice using the [passive.txt](https://github.com/denten/weasel-words/blob/master/passive.txt) dictionary.
 - [weasel.sh](https://github.com/denten/weasel-words/blob/master/weasel.sh)
-    Find unneccesary words that do not add anything to the meaning of the text. Uses the [weasel.txt]( https://github.com/denten/weasel-words/blob/master/passive.txt] dictionary.
+    Find unneccesary words that do not add anything to the meaning of the text. Uses the [weasel.txt]( https://github.com/denten/weasel-words/blob/master/passive.txt) dictionary.
 - [freq.sh](https://github.com/denten/weasel-words/blob/master/freq.sh)
     Find the most commonly used words particulat to this text. Uses the [stop-words.txt](ttps://github.com/denten/weasel-words/blob/master/passive.txt) dictionary.
