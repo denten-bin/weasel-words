@@ -38,5 +38,6 @@ mkdir -p weasel-reports/
 # remove puncuation | get rid of empty lines
 # get uniq count | sort by count | write to file
 
+# add convert all to lower case
 cat "$source" | sed 's/\s/\n/g' | tr -d '[:punct:]' | sed '/^$/d' | \
     sort | uniq -c | sort -hr > weasel-reports/"$target"-freq.txt
